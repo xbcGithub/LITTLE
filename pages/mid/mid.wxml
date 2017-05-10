@@ -1,0 +1,25 @@
+<view class="xx con-col" bindtap="btn1">
+  <view class="xt con-row">
+    <text>专业课视频</text>
+    <view style="width:340rpx;"></view>
+    <image style="margin-top:15rpx;height:40rpx;width:40rpx;" src="/image/icon/pencil.png">
+    </image>
+  </view>
+  <view class="xi con-row">
+    <image style="height:45rpx;width:45rpx;" src="/image/icon/time.png">
+    </image>
+    <text class="wenzi1">8月27日</text>
+  </view>
+  <view class="xm">
+    <text class="wenzi2">选择一段音乐大师的作品并为其配上视频。斯特拉文斯基，勋伯格，菲利普格拉斯。</text>
+  </view>
+  <view style="margin-top:20rpx;" class="xi con-row">
+    <image style="height:45rpx;width:45rpx;" src="/image/icon/team_number.png">
+    </image>
+    <text class="wenzi1">6人</text>
+  </view>
+  <view class="xi">
+    <text class="wenzi3" style="margin-left:380rpx;">分享</text>
+    <text class="wenzi3" style="margin-left:60rpx;">设置提醒</text>
+  </view>
+</view>

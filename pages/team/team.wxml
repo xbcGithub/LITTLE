@@ -1,0 +1,29 @@
+
+<view>
+<view class="font">
+  <input style=" margin-left:100rpx; border-radius: 10rpx; border: 1px solid;border-color:#cfcfcf;width:50%;" 
+  maxlength="10" type="text" focus="false"/>
+  <button  style="margin-right:110rpx; color:white; font-size:22rpx; background-color:#165fac; width:16%">搜索</button>
+</view>
+<view class="title" >
+筛选话题排序
+</view>
+<view class="team">
+    <view class="header">
+        专业课视频 <image class="pic" src="../../image/icon/ewmcode.png"></image>
+    </view>
+
+    <view class="time">
+       <image class="pic" src="../../image/icon/time.png"></image> 8月28日 <image class="pic" src="../../image/icon/place.png"></image> 专教
+    </view>
+    <view class="inf">
+    选择一段音乐大师的音乐并为其配上视频。斯特拉文斯基、勋伯格、菲利普格拉斯
+    </view>        
+    <view class="footer">
+      <image class="pic" src="../../image/icon/team_number.png"></image>  6人
+    </view>
+    <view class="add">
+    添加
+    </view>
+</view>
+</view>

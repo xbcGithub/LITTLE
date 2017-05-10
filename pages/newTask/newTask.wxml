@@ -1,0 +1,27 @@
+<view class="container">
+  <view class="head">
+    <text class="headText">新建日程</text>
+  </view>
+  <view class="box">
+    <text class="nameText">标题:</text>
+    <view class="border">
+      <input type="text" focus="true" confirm-type="next" class="input" placeholder="标题" focus="{{focus}}" />
+    </view>
+    <text class="nameText">日期:</text>
+    <view class="border">
+      <picker bindtap="btnbutton" mode="date" class="input" value="{{dateValue}}" start="1999-01-01" end="2999-12-12" bindchange="datePickerBindchange">
+        {{dateValue}}
+      </picker>
+    </view>
+    <text class="nameText">时间:</text>
+    <view class="border">
+      <picker mode="time" class="input" value="{{timeValue}}" start="00:00" end="24:00" bindchange="timePickerBindchange">
+      {{timeValue}}
+      </picker>
+    </view>
+    <text class="nameText">详情:</text>
+    <textarea  class="border" style="height:200rpx;" bindconfirm="btnadd"    />
+    <view  style="height:50rpx;"></view>
+    <button type="primary" size="default" bindtap="btnadd" > 提交 </button>
+  </view>
+</view>

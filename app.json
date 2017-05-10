@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/name/name",
+    "pages/mid/mid",
+    "pages/log/log",
+    "pages/rcxx1/rcxx1",
+    "pages/team/team",
+    "pages/newTask/newTask",
+    "pages/utils/util"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "时光之地图",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/icon/caleander_gray.png",
+        "selectedIconPath": "image/icon/caleander_blue.png",
+        "text": "日程"
+      },
+      {
+        "pagePath": "pages/mid/mid",
+        "iconPath": "image/icon/inform_gray.png",
+        "selectedIconPath": "image/icon/inform_blue.png",
+        "text": "通知"
+      },
+      {
+        "pagePath": "pages/name/name",
+        "iconPath": "image/icon/person_gray.png",
+        "selectedIconPath": "image/icon/person_blue.png",
+        "text": "我"
+      }
+    ]
+  }
+}

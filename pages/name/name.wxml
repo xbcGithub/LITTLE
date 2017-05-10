@@ -1,0 +1,35 @@
+<view class="userinfo" style="margin-top:30rpx;margin-bottom:20rpx;">
+  <view class="viewclass2">
+    <image class="userinfo-avatar" style="margin-left:80rpx;" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+  </view>
+  <view style="display:flex;flex-direction:column;margin-top:39rpx;">
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    <view style="display:flex;flex-direction:row;margin-top:30rpx;">
+      <view class="viewclass1">
+        <image src="/image/tianjia.png" class="iconstyle1" style="float:left;margin-top:5rpx;margin-left:30rpx;"></image>
+        <text class="font1">55</text>
+      </view>
+      <view class="viewclass1">
+        <image src="/image/zan.png" class="iconstyle1" style="float:left;margin-left:40rpx;"></image>
+       <text class="font1">12</text>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="boxclass1" bindtap="btn1">
+<image src="/image/shoucang.png" class="iconstyle1" style="float:left;margin-top:43rpx;margin-left:40rpx;"></image>
+<text class="font2">我的收藏 </text>
+</view>
+<view class="boxclass1">
+<image src="/image/gongxiang.png" class="iconstyle1" style="float:left;margin-top:43rpx;margin-left:40rpx;"></image>
+<text class="font2">我的共享 </text>
+</view>
+<view class="boxclass1">
+<image src="/image/guanzhu.png" class="iconstyle1" style="float:left;margin-top:43rpx;margin-left:40rpx;"></image>
+<text class="font2">我的关注 </text>
+</view>
+<view class="boxclass2">
+<image src="/image/shezhi.png" class="iconstyle1" style="float:left;margin-top:43rpx;margin-left:40rpx;"></image>
+<text class="font2">设置 </text>
+</view>

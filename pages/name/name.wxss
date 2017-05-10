@@ -1,0 +1,49 @@
+/**index.wxss**/
+
+.userinfo {
+  border-bottom:2rpx solid gainsboro;
+  display: flex;
+  flex-direction:row;
+
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 40rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  margin-left:55rpx;
+  color: black;
+  font-family: 微软雅黑;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.viewclass1 {
+  line-height: 70rpx;
+  height: 70rpx;
+}
+
+.viewclass2{
+  flex-direction: column;
+  display:flex;
+
+}
+
+.boxclass1{
+  border: 2rpx solid gainsboro;
+  height: 150rpx;
+  line-height: 150rpx;
+}
+
+.boxclass2{
+  border-top: 2rpx solid gainsboro;
+  border-bottom: 6rpx solid gainsboro;
+  height: 150rpx;
+  line-height: 150rpx;
+}

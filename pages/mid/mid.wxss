@@ -1,0 +1,59 @@
+.xx {
+  margin-left: auto;
+  margin-right: auto;
+  width: 700rpx;
+  height: 450rpx;
+  background-color: white;
+  border: ghostwhite solid 4rpx;
+  border-radius: 20rpx;
+  box-shadow: 4rpx 4rpx 8rpx lightgrey;
+}
+
+.xt {
+  margin-top: 40rpx;
+  margin-left: 40rpx;
+  width: 87%;
+  font-weight: 600;
+  font-family: 微软雅黑;
+  font-size: 46rpx;
+}
+
+.xi {
+  margin-left: 40rpx;
+  width: 87%;
+  height: 50rpx;
+  margin-top: 10rpx;
+}
+
+.xm {
+  margin-left: 40rpx;
+  width: 87%;
+  height: 85rpx;
+  margin-top: 20rpx;
+
+}
+
+.wenzi1 {
+  font-weight: 400;
+  font-family: 微软雅黑;
+  font-size: 28rpx;
+  margin-left: 18rpx;
+  margin-top:8rpx;
+}
+
+.wenzi2 {
+  font-weight: 400;
+  font-family: 微软雅黑;
+  font-size: 32rpx;
+  margin-top: 10rpx;
+}
+
+.wenzi3 {
+  font-weight: 400;
+  font-family: 微软雅黑;
+  font-size:28rpx;
+  margin-top: 10rpx;
+  color: blue;
+}
+
+

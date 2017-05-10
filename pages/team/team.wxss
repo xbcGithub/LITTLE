@@ -1,0 +1,63 @@
+.font{
+     margin: 25rpx;
+      font-family: 'Microsoft Yahei', Helvetica, Arial, sans-serif; 
+       display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.title{
+   display: flex;
+   flex-direction: row;
+    justify-content: center;
+    font-family: 'Microsoft Yahei', Helvetica, Arial, sans-serif; 
+    font-size: 40rpx;
+    border-top: 1rpx solid #bfbfbf;
+    border-bottom: 1rpx solid #bfbfbf;
+    padding: 20rpx;
+}
+.team{
+    font-family: 'Microsoft Yahei', Helvetica, Arial, sans-serif; 
+    color: #3f3f3f;
+    padding: 40rpx;
+    border: 1rpx solid #bfbfbf;
+    margin: 25rpx;
+     font-size: 35rpx;
+     box-shadow: 2rpx 2rpx 2rpx 2rpx #afafaf;
+     border-radius: 10rpx;
+}
+
+.header{
+     margin-top: 30rpx;
+     margin-bottom: 30rpx;
+    font-size: 55rpx;
+    flex-direction: row;
+    display: flex;
+     justify-content:space-between;
+    
+}
+
+.time{
+    margin-bottom: 30rpx;
+   
+}
+.pic{
+    width: 50rpx;
+    height: 50rpx;
+}
+
+inf{
+    padding: 100rpx;
+}
+
+.footer.text{
+    margin: 10rpx;
+}
+
+.add{
+    color: #165fac;
+    font-size: 40rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}

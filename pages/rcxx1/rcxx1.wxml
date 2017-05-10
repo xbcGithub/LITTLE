@@ -1,0 +1,33 @@
+<view class="backborder">
+  <view class="title">
+    <text class="title-text" style="width:400rpx;">{{motto[i].name}}</text>
+    <view style="width:80rpx;"></view>
+    <image class="icon0" src="/image/icon/pencil.png"></image>
+    <view style="width:20rpx;"></view>
+    <image class="icon0" src="/image/icon/told.png"></image>
+  </view>
+  <view class="mid">
+    <view class="schedule" >
+      <image class="icon" src="/image/icon/time.png"></image>
+      <text class="schedule-text">{{motto[i].day}}</text>
+      <text class="schedule-text">{{motto[i].time}}</text>
+    </view>
+    <view class="schedule">
+      <image class="icon" src="/image/icon/place.png"></image>
+      <text class="schedule-text">{{motto[i].place}}</text>
+    </view>
+    <view class="schedule">
+      <image class="icon" src="/image/icon/team_number.png"></image>
+      <text class="schedule-text">{{motto[i].people}}人</text>
+    </view>
+  </view>
+  <view class="dec"> </view>
+  <view class="information">
+    <text class="information-text">{{motto[i].long}}</text>
+  </view>
+  <view class="detail">
+    <text class="detail-text">显示详细介绍</text>
+    <image class="ewm" src="/image/icon/ewm.png"></image>
+    <image class="butt" src="/image/button/add.png"></image>
+  </view>
+</view>

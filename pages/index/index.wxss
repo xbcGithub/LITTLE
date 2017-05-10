@@ -1,0 +1,225 @@
+/* pages/calendar/calendar.wxss */
+.canlender{
+    color:#3f3f3f;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    
+}
+
+.dataTitle{
+    margin-left: 30rpx;
+}
+.top-handle {
+    display: flex;
+    height: 70rpx;
+    font-size: 44rpx;
+    color: #165fac;
+    font-weight: bold;
+    font-family: 'Microsoft Yahei', Helvetica, Arial, sans-serif; 
+    border-bottom: 5rpx solid #eee;
+    margin-bottom:10rpx;
+}
+.prev {
+    text-align: right;
+    height: 80rpx;
+    
+}
+.next {
+    height: 80rpx;
+}
+.prev-handle {
+    width: 80rpx;
+    height: 100%;
+    font-family: 'Microsoft Yahei', Helvetica, Arial, sans-serif; 
+}
+.next-handle {
+    width: 80rpx;
+    height: 100%;
+    font-family: 'Microsoft Yahei', Helvetica, Arial, sans-serif; 
+}
+.date-area {
+    width: 52%;
+    height: 80rpx;
+    
+}
+.weeks {
+    height: 50rpx;
+    line-height: 50rpx;
+    opacity: 1;
+}
+.week {
+    text-align: center;
+    font-family: 'Microsoft Yahei', Helvetica, Arial, sans-serif; 
+}
+.days {
+    height: 500rpx;
+}
+.grid {
+    width: 14.2857%;
+}
+.day {
+    width: 60rpx;
+    height: 60rpx;
+    color: #3f3f3f;
+    font-size: 40rpx;
+    font-weight: 200;
+    font-family: 'Microsoft Yahei', Helvetica, Arial, sans-serif; 
+}
+.border-radius {
+    border-radius: 50%;
+    position: relative;
+    left: 0;
+    top: 0;
+    color: #fff;
+}
+.pink-bg {
+    background-color: #165fac;
+}
+.purple-bg {
+    background-color: #165fac;
+}
+
+.right-triangle::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border: 15rpx solid transparent;
+    border-left-color: #165fac;
+    position: absolute;
+    right: -22rpx;
+    top: 18rpx;
+}
+.left-triangle::before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border: 15rpx solid transparent;
+    border-right-color: #165fac;
+    position: absolute;
+    left: -22rpx;
+    top: 18rpx;
+}
+.tips {
+    text-align: center;
+    margin-top: 20rpx;
+    margin-bottom: 20rpx;
+}
+.types {
+    background-color: #165fac;
+    height: 50rpx;
+}
+.type-dot {
+    width: 25rpx;
+    height: 25rpx;
+    border-radius: 50%;
+    margin-right: 10rpx;
+}
+.type-dot-ymq {
+    color:#165fac;
+    background-color: #165fac;
+}
+.type-dot-ycq {
+    color: #165fac;
+    background-color: #165fac;
+}
+.type-dot-aqq {
+    color: #165fac;
+    background-color: #165fac;
+}
+.type-dot-yyq {
+    color: #165fac;
+    background-color: #165fac;
+}
+.type-dot-plr {
+    color: #165fac;
+    background-color: #165fac;
+}
+.types-desc {
+    padding: 0 20rpx;
+}
+.type-name {
+    margin-top: 50rpx;
+    margin-bottom: 30rpx;
+}
+.type-desc {
+    padding: 0 35rpx;
+    line-height: 38rpx;
+}
+.explain {
+    border-top: 1px solid #eee;
+    width: 90%;
+    margin: 20rpx 5% 20rpx 5%;
+    padding: 20rpx 0;
+}
+.explain-title {
+    font-weight: bold;
+    margin-bottom: 15rpx;
+}
+.explain-item {
+    padding: 8rpx 20rpx;
+    color: #fff;
+}
+.left-border-radius {
+    border-top-left-radius: 20rpx;
+    border-bottom-left-radius: 20rpx;
+}
+.right-border-radius {
+    border-top-right-radius: 20rpx;
+    border-bottom-right-radius: 20rpx;
+}
+
+
+.icon{
+    width: 60rpx;
+    height: 60rpx;
+}
+
+
+.arrow{
+    width: 50rpx;
+    height: 50rpx;
+    margin: 10rpx;
+}
+
+.taskBox{
+    border-bottom: 6rpx solid #ddd;
+     border-top: 6rpx solid #ddd;
+}
+
+.item{
+     display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 40rpx;
+    font-size: 36rpx;
+    font-family: 'Microsoft Yahei', Helvetica, Arial, sans-serif; 
+    border: solid 5rpx #ddd;
+    border-top: 0rpx;
+}
+
+.picLeft{
+   width:60rpx;
+    height: 60rpx;
+    margin-top:0rpx;
+}
+
+
+.taskInf{
+    margin-top: 13rpx;
+   margin-left: 40rpx;
+   position: absolute;
+}
+
+.picRight{
+    
+    width:50rpx;
+    height: 50rpx;
+    margin-top: 10rpx;
+
+}
+.top{
+    margin-left: 20rpx;
+}
